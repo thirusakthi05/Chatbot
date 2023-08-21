@@ -1,0 +1,131 @@
+//Default Fallback Intent.
+//Default Welcome Intent.
+//Intents on delivery
+//Menu
+//offers
+//restaurant.booking.create
+
+// suggestion of chips.
+{
+  "richContent": [
+    [
+      {
+        "type": "chips",
+        "options": [
+          {
+            "text": "Can I book a table?"
+          },
+          {
+            "text": "Can I see your menu?"
+          },
+          {
+            "text": "Do you deliver?"
+          },
+          {
+            "text": "Offers!"
+          }
+        ]
+      }
+    ]
+  ]
+}
+
+//code for delivery.
+{
+  "richContent": [
+    [
+      {
+        "image": {
+          "src": {
+            "rawUrl": "https://cdn.dribbble.com/users/14824/screenshots/4263230/grill-restaurant-menu-flyer-steakhouse.jpg"
+          }
+        },
+        "actionLink": "https://www.grubhub.com/",
+        "title": "Feast Restaurant",
+        "type": "info",
+        "subtitle": "Feast"
+      }
+    ]
+  ]
+}
+
+//code for menu.
+{
+  "richContent": [
+    [
+      {
+        "text": "Breakfast",
+        "type": "button",
+        "icon": {
+          "type": "link",
+          "color": "#FF9800"
+        },
+        "link": "https://i.pinimg.com/originals/22/8e/1a/228e1ae056a057df06c4951dd4fc0b87.jpg"
+      }
+    ],
+    [
+      {
+        "icon": {
+          "color": "#FF9800",
+          "type": "link"
+        },
+        "link": "https://lh3.googleusercontent.com/IR3J67bRVlIUnTGjZPNKp5UczDsn2VVl5mgqQiYyVX9fcsh-DJPVj9HYXdKWiVDBQdtcr7oCnxLZ5aDNJ5r6sriTLdUe0sJ8TZImkqfz=w1000",
+        "text": "Lunch/ Dinner",
+        "type": "button"
+      }
+    ],
+    [
+      {
+        "type": "button",
+        "icon": {
+          "color": "#FF9800",
+          "type": "link"
+        },
+        "text": "Beverages",
+        "link": "https://cdn.dribbble.com/users/14824/screenshots/4263230/grill-restaurant-menu-flyer-steakhouse.jpg"
+      }
+    ]
+  ]
+}
+
+//code for ordering.
+{
+  "richContent": [
+    [
+      {
+        "link": "https://www.grubhub.com/",
+        "type": "button",
+        "icon": {
+          "color": "hashtagFF9800",
+          "type": "link"
+        },
+        "text": "Order Here"
+      }
+    ]
+  ]
+}
+
+//code for offers.
+{
+  "richContent": [
+    [
+      {
+        "title": "100 rupees off any purchase over 500 rupees",
+        "subtitle": "Beverages menu",
+        "type": "info"
+      }
+    ]
+  ]
+}
+
+{
+  "richContent": [
+    [
+      {
+        "type": "info",
+        "subtitle": "Lunch/ Dinner menu",
+        "title": "For bulk orders, more than 1000 rupees off"
+      }
+    ]
+  ]
+}
